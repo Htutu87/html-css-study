@@ -1,0 +1,34 @@
+#main-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.navbar-item{
+    display: block;
+    color: black;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+}
+ li{
+    border: 1px solid black;
+ }
+
+.li:last-child{
+    border-bottom: none;
+}
+
+.navbar-item:hover{
+    background-color: #696969;
+    color: white;
+}
+
+#active{
+    background-color: burlywood;
+}
