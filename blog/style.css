@@ -3,24 +3,23 @@ body{
     background-color: burlywood;
 }
 
-header{
+header, section, footer{ 
     max-width: 1200px;
     margin: auto;
     margin-bottom: 15px;
-    background-color: white;
     border-style: solid;
+} 
+
+header{
+    background-color: white;
 }
 
 section{
-    max-width: 1200px;
-    margin: auto;
     border-style: solid;
     background-color: white;
 }
 
 footer{
-    max-width: 1200px;
-    margin: auto;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;

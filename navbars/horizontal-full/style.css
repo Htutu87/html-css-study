@@ -2,8 +2,13 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
-    width: 100px;
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    overflow: auto;
+    border-style: solid;
+    background-color: #e0e0e0  ;
+
 }
 
 .navbar-item{
@@ -14,13 +19,7 @@
     line-height: 30px;
     background-color: #e0e0e0;
     text-decoration: none;
-}
- li{
-    border: 1px solid black;
- }
-
-.li:last-child{
-    border-bottom: none;
+    margin: 0%;
 }
 
 .navbar-item:hover{
@@ -30,4 +29,20 @@
 
 #active{
     background-color: burlywood;
+}
+
+#text{
+    margin-left: 25%;
+    padding: 100px;
+    padding-top: 10px;
+    border-style: solid;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+#top{
+    margin-left: 25%;
+    border-style: solid;
 }
