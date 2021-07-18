@@ -24,6 +24,7 @@ footer{
 
 #footer-top{
     width: max-content;
+    max-width: 70%;
     height: max-content;
     padding: 10px 50px 40px 50px;
 }
@@ -69,9 +70,23 @@ img{
     padding: 10px;
     margin: 5px;
     display: inline;
+    cursor: pointer;
+}
+
+
+section{padding: 20px 0 20px 0}
+
+div#text{
+    max-width: 50%;
+    text-align: justify;
+    margin: auto;
 }
 
 .navbar-item-box:hover{
+    background-color: #002f01;
+}
+
+.active{
     background-color: #002f01;
 }
 
@@ -80,4 +95,17 @@ img{
     color:white;
     font-size: 12pt;
     font-weight: 400;
+}
+
+#contact{
+    border-style: solid;
+    margin: auto;
+}
+
+.contact-box{
+    margin: 10px 0 20px 0;
+}
+
+input{
+    width: 500px;
 }
