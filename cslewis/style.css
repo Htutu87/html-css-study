@@ -109,3 +109,46 @@ div#text{
 input{
     width: 500px;
 }
+
+div{
+    text-align: justify;
+}
+
+section {
+    text-align: center;
+    min-height: max-content;
+}
+
+#content{
+    border-style: solid;
+    margin: auto;
+    max-width: 90%;
+    width: max-content;
+}
+
+#leftbox{
+    border-style: solid;
+    background-color: cadetblue;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+
+#middlebox{
+    border-style: solid;
+    background-color:blanchedalmond;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+
+#rightbox{
+    border-style: solid;
+    background-color: cadetblue;
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin: auto;
+}

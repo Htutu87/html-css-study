@@ -1,0 +1,23 @@
+.navbar-container{
+    background-color: #383838;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.navbar-list{
+    background-color: #383838;
+    text-align: center;
+}
+
+.navbar-item{
+    font-size: 16pt;
+    font-weight: 400;
+    color: white;
+    padding: 0 10px;
+}
+
+.navbar-item:hover{
+    background-color: #002f01;
+}
