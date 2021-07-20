@@ -12,7 +12,7 @@ header{
     padding-bottom: 0%;
     background-color: white;
     margin-bottom: 0px;
-    position: fixed;
+    
 }
 
 section{
@@ -58,23 +58,33 @@ img{
     height: auto;
   }
 
-#navbar{
+  .navbar-container{
     background-color: #383838;
+    max-width: 1200px;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 0px;
+    margin: auto;
+    padding: 0;
+    height: max-content;
+}
+
+.navbar-list{
+    background-color: #383838;
+    margin: 0;
 }
 
 .navbar-item-box{
-    list-style-type: none;
-    width: min-content;
-    padding: 10px;
-    margin: 5px;
-    display: inline;
-    cursor: pointer;
+    font-size: 14pt;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+    padding: 0 15px;
+    height: 100%;
+    line-height: 50px;
 }
 
-
+.navbar-item-box:hover{
+    background-color: #002f01;
+}
 section{padding: 20px 0 20px 0}
 
 p{

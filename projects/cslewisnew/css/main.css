@@ -1,0 +1,47 @@
+body{
+    background-color: #002f01;
+}
+
+header, section, footer{
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.5);
+}
+
+header, section{
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+footer{
+    background-color: #383838;
+}
+
+.footer-div{
+    max-width: max-content;
+    padding: 30px;
+}
+
+#footer-title{
+    color: #cadad7;
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+#mailbox{   
+    color: white;
+    font-size: 10pt;
+}
+
+.copyright-div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+    padding: 20px 0;
+}
+
