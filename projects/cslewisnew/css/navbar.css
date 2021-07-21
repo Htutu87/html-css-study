@@ -21,9 +21,53 @@
     height: 100%;
     line-height: 50px;
 }
-
-
+/*
+.navbar-item:hover{
+    background-color: #002f01;
+}*/
 
 .navbar-item:hover{
     background-color: #002f01;
 }
+
+.navbar-submenu{
+    display: none;
+    font-size: 10pt;
+    box-shadow: 5px 5px 10px black;
+    background-color: #002f01;
+    max-width: max-content;
+    text-align: left;
+    position: absolute;
+    
+}
+
+#navbar-about:hover #navbar-about-submenu{
+    display: block;
+}
+
+#navbar-cs-lewis:hover #navbar-cs-lewis-submenu{
+    display: block;
+}
+
+#navbar-give:hover #navbar-give-submenu{
+    display: block;
+}
+
+#navbar-events:hover #navbar-events-submenu{
+    display: block;
+}
+
+#navbar-the-kilns:hover #navbar-the-kilns-submenu{
+    display: block;
+}
+
+#navbar-social-media:hover #navbar-social-media-submenu{
+    display: block;
+}
+
+#navbar-contact:hover #navbar-contact-submenu{
+    display: block;
+}
+
+
+
