@@ -2,7 +2,7 @@ body{
     background-color: #002f01;
 }
 
-header, section, footer{
+header, main, footer{
     max-width: 1200px;
     margin: auto;
     box-shadow: 8px 8px 13px rgba(0, 0, 0, 0.5);
@@ -12,11 +12,11 @@ header{
     margin-top: 2%;
 }
 
-section{
+main{
     text-align: center;
 }
 
-header, section{
+header, main{
     background-color: white;
 }
 
@@ -32,7 +32,7 @@ header, section{
 
 #landingPageQuotation{
     background-color: #383838;
-    color: white;
+    color: white;   
     text-align: center;
     padding: 30px 100px;
     font-size: 12pt;
@@ -41,7 +41,7 @@ header, section{
 
 /* Essas divs estão encostando lá embaixo e crescendo para cima conforme seu conteúdo aumenta.*/
 
-.main-boxes{
+.featured-articles{
     position: relative;
     top: 0;
     max-width: 30%;
@@ -50,8 +50,17 @@ header, section{
     vertical-align: top; /*AAAAAAAAA*/
 }
 
+article a{
+    color: #2596be;
+    font-weight: 520;
+}
 
-h3{
+h2{
+    
+    display: none;
+}
+
+h3, h2{
     color: #2596be;
     font-weight:600;
 }

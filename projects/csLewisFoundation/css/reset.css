@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box; /*Define que as dimensões da caixa já levarão em conta o padding e a borda.*/
 }
 body {
         font-family: "Open Sans", sans-serif;

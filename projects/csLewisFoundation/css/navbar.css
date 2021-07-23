@@ -1,4 +1,4 @@
-.navbar-container{
+nav {
     background-color: #383838;
     max-width: 1200px;
     text-align: center;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-p{
+p #a{
     text-align: justify;
     margin: auto;
     max-width: 50%;
