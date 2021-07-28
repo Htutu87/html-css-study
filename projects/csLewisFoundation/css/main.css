@@ -102,3 +102,66 @@ footer{
     font-size: 10pt;
     padding: 20px 0;
 }
+
+form{
+    /* border: 1px solid black; */
+    height: max-content;
+    text-align: left;
+    display: inline-block;  
+    width: 60%;
+    margin: 40px 0;
+}
+
+input, textarea{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 12pt;
+    margin: 5px 0;
+}
+
+legend{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#name, #email{
+    width: 60%;
+    height: 30px;
+}
+
+textarea{
+    padding: 10px 10px  ;
+    height: 200px;
+    width: 100%;
+}
+
+#form-title{
+    display: block;
+    padding-left: 15px;
+}
+
+.form-item{
+    margin: 20px;
+}
+
+button{
+    padding: 5px 40px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 14pt;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+form button{
+    float: right;
+}
+
+main{
+    text-align: center;
+}

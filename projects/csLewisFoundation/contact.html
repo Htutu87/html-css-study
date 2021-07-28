@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--
+Alt+z -> Quebra linha
+-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -90,7 +94,7 @@
             </li>
             <!--
             -->
-            <li class="navbar-item" id="navbar-contact"><a href="contact.html">CONTACT</a>
+            <li class="navbar-item" id="navbar-contact"><a href="">CONTACT</a>
                 <ul class="navbar-submenu" id="navbar-contact-submenu">
                     <li><a href="">SIGN UP FOR OUR E-NEWSLETTER</a></li>
                     <li><a href="">RIGHTS TO USE LEWIS'S WORKS</a></li>
@@ -100,40 +104,31 @@
         </ul>
     </nav>
     <main>
-        <img class="landingPageImg" src="img/landingPageImg01.jpg" alt="C.S. Lewis and the pslams.">
-        <div id="landingPageQuotation">
-            “The work of the C.S. Lewis Foundation is admirably carrying on the tradition of Jack Lewis. By providing
-            opportunities for scholarly inquiry, deep conversation, prayerful explorations of truth, and celebrations of
-            the joy of a vibrant faith, the Foundation offers a loving gift to all of us who have the chance to be
-            part.” -- Dr. Francis Collins
-        </div>
-
-        <section>
-            <h2>Featured articles</h2>
-            <article class="featured-articles">
-                <h3>Sign Up for Our Email List</h3>
-                <img class="box-image" src="img/Keeping-company-at-the-Blue-Boar.jpg" alt="">
-                <p>Sign up now to be added to our mailing list.</p>
-                <p>Receive emails about Foundation news, events, programs and more!</p>
-            </article>
-
-            <article class="featured-articles">
-                <h3>Join Us in Our Mission</h3>
-                <img class="box-image" src="img/SD14-group.jpg" alt="">
-                <p>Join us in our strategic mission of outreach to the world of higher education and the arts!</p>
-                <br>
-                <p><a href="#">Give to the Foundation.</a></p>
-                <br>
-                <p><a href="#">Donate your car or other vehicle.</a></p>
-            </article>
-            <article class="featured-articles">
-                <h3>Support The Kilns</h3>
-                <img class="box-image" src="img/RH-Painting-Full.jpg" alt="">
-                <p>Support the ongoing programs at the C.S. Lewis Study Centre at The Kilns, C.S. Lewis' beloved home in
-                    Oxford.</p>
-            </article>
-        </section>
-    </main>
+        
+        <form action="#" method="GET" target="_blank" autocomplete="off">
+            <h2 id="form-title">
+                Contact us!
+            </h2>
+            <div class="form-item">
+                <label for="name">Name:</label>
+                <input type="text" name="nome" value="" placeholder="Your name" id="name">
+            </div>
+            <div class="form-item">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" value="" placeholder="Your e-mail" id="email" required>
+            </div>
+            <div class="form-item">
+                <label for="sex">Sex:</label>
+                <input type="radio" name="sex" value="" id="sex" required> Male
+                <input type="radio" name="sex" value="" id="sex"> Female
+            </div>
+            <div class="form-item">
+                <label for="msg">Message:</label>
+                <textarea placeholder="Write your message for us"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form><!--
+ --></main>
     <footer>
         <div class="footer-div">
             <p id="footer-title">

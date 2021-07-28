@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .pai{
+            border: 1px solid black;
+            background-color: rgba(255, 255, 0, 0.2);
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+        }
+
+        .filha-01, .filha-02 {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+            display: inline-block;
+            position: relative;
+        }
+
+        .filha-01{
+            top: 100px;
+        }
+
+        .filha-02{
+            bottom: 20px;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="pai">
+        <div class="filha-01">
+            a
+        </div><!--
+     --><div class="filha-02">
+            b
+        </div>
+</div>
+
+</body>
+</html>
